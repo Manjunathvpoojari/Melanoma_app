@@ -46,7 +46,7 @@ Each model was fine-tuned and evaluated to identify the best-performing architec
 
 ### Mobile Application
 - Web application extended into a **cross-platform mobile application**
-- Compatible with **Android and iOS**
+- Compatible with **Android**
 - Supports real-time image upload and melanoma prediction
 
 ---
@@ -64,7 +64,7 @@ Each model was fine-tuned and evaluated to identify the best-performing architec
 - TensorFlow / Keras  
 - Streamlit  
 - Deep Learning (CNN, Transfer Learning)  
-- Cloud Deployment  
+- Stream Cloud Deployment  
 - Cross-Platform App Development  
 
 ---
