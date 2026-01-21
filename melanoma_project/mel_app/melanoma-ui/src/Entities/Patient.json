@@ -1,0 +1,45 @@
+{
+  "name": "Patient",
+  "type": "object",
+  "properties": {
+    "full_name": {
+      "type": "string",
+      "description": "Patient's full name"
+    },
+    "date_of_birth": {
+      "type": "string",
+      "format": "date",
+      "description": "Patient's date of birth"
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "Male",
+        "Female",
+        "Other"
+      ],
+      "description": "Patient's gender"
+    },
+    "medical_record_number": {
+      "type": "string",
+      "description": "Unique medical record identifier"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Contact phone number"
+    },
+    "email": {
+      "type": "string",
+      "description": "Contact email"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional medical notes"
+    }
+  },
+  "required": [
+    "full_name",
+    "date_of_birth",
+    "gender"
+  ]
+}

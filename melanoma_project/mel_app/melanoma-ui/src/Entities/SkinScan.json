@@ -1,0 +1,84 @@
+{
+  "name": "SkinScan",
+  "type": "object",
+  "properties": {
+    "patient_id": {
+      "type": "string",
+      "description": "Reference to patient record"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "URL of the uploaded skin image"
+    },
+    "classification": {
+      "type": "string",
+      "enum": [
+        "melanoma",
+        "nevus",
+        "benign_keratosis",
+        "basal_cell_carcinoma",
+        "actinic_keratosis",
+        "dermatofibroma",
+        "vascular_lesion",
+        "squamous_cell_carcinoma",
+        "unknown"
+      ],
+      "description": "Primary classification result"
+    },
+    "confidence_score": {
+      "type": "number",
+      "description": "Confidence percentage of the classification (0-100)"
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": [
+        "low",
+        "moderate",
+        "high",
+        "critical"
+      ],
+      "description": "Overall risk assessment"
+    },
+    "analysis_details": {
+      "type": "object",
+      "description": "Detailed analysis breakdown",
+      "properties": {
+        "asymmetry": {
+          "type": "string"
+        },
+        "border": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        },
+        "diameter": {
+          "type": "string"
+        },
+        "evolution": {
+          "type": "string"
+        }
+      }
+    },
+    "recommendations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of recommendations based on analysis"
+    },
+    "body_location": {
+      "type": "string",
+      "description": "Where on body the lesion is located"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes from user"
+    }
+  },
+  "required": [
+    "image_url",
+    "classification",
+    "risk_level"
+  ]
+}
