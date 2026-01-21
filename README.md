@@ -87,7 +87,13 @@ This project was developed as a **collaborative effort**, with responsibilities 
 - Dataset preprocessing and augmentation  
 - Model training and evaluation  
 - Web deployment using Streamlit  
-- Cross-platform mobile application development  
+- Cross-platform mobile application development
+
+## Team Collaboration
+- Manjunath V Poojari 
+- Prajwal P
+- Mannan Faiz
+- Nithish T R
 
 ---
 
