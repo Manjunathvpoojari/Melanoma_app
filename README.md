@@ -90,10 +90,10 @@ This project was developed as a **collaborative effort**, with responsibilities 
 - Cross-platform mobile application development
 
 ## Team Collaboration
-- [Manjunath V Poojari](https://github.com/your-Manjunathvpoojari)
-- [Prajwal P](https://github.com/your-prajwalp111)
-- [Mannan Faiz](https://github.com/your-MannanFaiz)
-- [Nithish T R](https://github.com/your-nithishtr)
+- [Manjunath V Poojari](https://github.com/Manjunathvpoojari)
+- [Prajwal P](https://github.com/prajwalp111)
+- [Mannan Faiz](https://github.com/MannanFaiz)
+- [Nithish T R](https://github.com/nithishtr)
 
 ---
 
